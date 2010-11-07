@@ -1,0 +1,145 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* ImgReadr */ = {
+		activeExec = 0;
+		executables = (
+			A11474D1127F4398002F7B8F /* ImgReadr */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A11474D1127F4398002F7B8F /* ImgReadr */;
+		activeSDKPreference = iphonesimulator4.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ImgReadr */;
+		codeSenseManager = A11474ED127F43D5002F7B8F /* Code sense */;
+		executables = (
+			A11474D1127F4398002F7B8F /* ImgReadr */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					977,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 310483985;
+			PBXWorkspaceStateSaveDate = 310483985;
+		};
+		perUserProjectItems = {
+			A10119E41282C3D5002C1DD8 /* PBXTextBookmark */ = A10119E41282C3D5002C1DD8 /* PBXTextBookmark */;
+			A1011A8112840203002C1DD8 /* PBXTextBookmark */ = A1011A8112840203002C1DD8 /* PBXTextBookmark */;
+			A1139090127F4E6D009599DD /* PBXBookmark */ = A1139090127F4E6D009599DD /* PBXBookmark */;
+		};
+		sourceControlManager = A11474EC127F43D5002F7B8F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	A10119E41282C3D5002C1DD8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A1A23C93128165F3008E3727 /* index.html */;
+		name = "index.html: 90";
+		rLen = 1096;
+		rLoc = 2345;
+		rType = 0;
+		vrLen = 1414;
+		vrLoc = 2136;
+	};
+	A1011A8112840203002C1DD8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A1011A8212840203002C1DD8 /* index.html */;
+		name = "index.html: 126";
+		rLen = 0;
+		rLoc = 3345;
+		rType = 0;
+		vrLen = 1601;
+		vrLoc = 1528;
+	};
+	A1011A8212840203002C1DD8 /* index.html */ = {
+		isa = PBXFileReference;
+		name = index.html;
+		path = /Users/emily/Development/phonegap/ImgReadr/www/index.html;
+		sourceTree = "<absolute>";
+	};
+	A1139090127F4E6D009599DD /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A1139091127F4E6D009599DD /* 1288544387_player_play.png */;
+	};
+	A1139091127F4E6D009599DD /* 1288544387_player_play.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = 1288544387_player_play.png;
+		path = /Users/emily/Development/phonegap/ImgReadr/www/images/1288544387_player_play.png;
+		sourceTree = "<absolute>";
+	};
+	A11474D1127F4398002F7B8F /* ImgReadr */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ImgReadr;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	A11474EC127F43D5002F7B8F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A11474ED127F43D5002F7B8F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A1A23C93128165F3008E3727 /* index.html */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.html;
+		name = index.html;
+		path = /Users/emily/Development/phonegap/ImgReadr/www/index.html;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1155, 2548}}";
+			sepNavSelRange = "{1223, 0}";
+			sepNavVisRange = "{3642, 1634}";
+			sepNavWindowFrame = "{{19, 91}, {1149, 782}}";
+		};
+	};
+}

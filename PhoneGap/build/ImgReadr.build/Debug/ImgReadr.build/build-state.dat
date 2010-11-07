@@ -1,0 +1,115 @@
+TImgReadr
+v7
+r1
+
+N/Users/emily/Development/phonegap/ImgReadr/Default.png
+c000000004CCF0C170000000000000BAE
+t1288637463
+s2990
+
+N/Users/emily/Development/phonegap/ImgReadr/PhoneGap.plist
+c000000004CCF0C17000000000000027E
+t1288637463
+s638
+
+N/Users/emily/Development/phonegap/ImgReadr/PhoneGapBuildSettings.xcconfig
+c000000004CCF0C170000000000000080
+t1288637463
+s128
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug/ImgReadr.app
+t2
+s0
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug/ImgReadr.app/Contents/Info.plist
+t2
+s0
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug/ImgReadr.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug/ImgReadr.app/Contents/Resources/Default.png
+t2
+s0
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug/ImgReadr.app/Contents/Resources/PhoneGap.plist
+t2
+s0
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug/ImgReadr.app/Contents/Resources/PhoneGapBuildSettings.xcconfig
+t2
+s0
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug/ImgReadr.app/Contents/Resources/VERSION
+t2
+s0
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug/ImgReadr.app/Contents/Resources/icon.png
+t2
+s0
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug/ImgReadr.app/Contents/Resources/www
+t2
+s0
+
+N/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug/ImgReadr.build/Script-304B58A110DAC018002A0835.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug/ImgReadr.build/Script-30E9A9A110B758320022D3BA.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/emily/Development/phonegap/ImgReadr/icon.png
+c000000004CCF0C170000000000000C36
+t1288637463
+s3126
+
+N/Users/emily/Development/phonegap/ImgReadr/www
+c000000004CCF0C170000000000000066
+t1288637463
+s102
+
+N/Users/emily/Documents/PhoneGapLib/VERSION
+c000000004CB572AB0000000000000005
+t1286959787
+s5
+
+NImgReadr-Info.plist
+c000000004CCF0C1700000000000005C2
+t1288637463
+s1474
+
+CCopyPlistFile /Users/emily/Development/phonegap/ImgReadr/build/Debug/ImgReadr.app/Contents/Resources/PhoneGap.plist PhoneGap.plist
+r0
+
+CCpResource build/Debug/ImgReadr.app/Contents/Resources/Default.png Default.png
+r0
+
+CCpResource build/Debug/ImgReadr.app/Contents/Resources/PhoneGapBuildSettings.xcconfig PhoneGapBuildSettings.xcconfig
+r0
+
+CCpResource build/Debug/ImgReadr.app/Contents/Resources/VERSION /Users/emily/Documents/PhoneGapLib/VERSION
+r0
+
+CCpResource build/Debug/ImgReadr.app/Contents/Resources/icon.png icon.png
+r0
+
+CCpResource build/Debug/ImgReadr.app/Contents/Resources/www www
+r0
+
+CPhaseScriptExecution "Copy PhoneGap Javascript" /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug/ImgReadr.build/Script-30E9A9A110B758320022D3BA.sh
+r0
+
+CPhaseScriptExecution "Touch www folder" /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug/ImgReadr.build/Script-304B58A110DAC018002A0835.sh
+r0
+
+CProcessInfoPlistFile /Users/emily/Development/phonegap/ImgReadr/build/Debug/ImgReadr.app/Contents/Info.plist ImgReadr-Info.plist
+r0
+
+CTouch /Users/emily/Development/phonegap/ImgReadr/build/Debug/ImgReadr.app
+r0
+

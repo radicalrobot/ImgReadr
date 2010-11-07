@@ -1,0 +1,552 @@
+TImgReadr
+v7
+r0
+t310330300.925879
+cCheck dependencies
+cProcessInfoPlistFile /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/Info.plist ImgReadr-Info.plist
+cPhaseScriptExecution "Copy PhoneGap Javascript" /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Script-30E9A9A110B758320022D3BA.sh
+cPhaseScriptExecution "Touch www folder" /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Script-304B58A110DAC018002A0835.sh
+cCpResource build/Debug-iphonesimulator/ImgReadr.app/www www
+cCpResource build/Debug-iphonesimulator/ImgReadr.app/VERSION /Users/emily/Documents/PhoneGapLib/VERSION
+cCpResource build/Debug-iphonesimulator/ImgReadr.app/Default.png Default.png
+cCpResource build/Debug-iphonesimulator/ImgReadr.app/icon.png icon.png
+cCopyPlistFile /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/PhoneGap.plist PhoneGap.plist
+cCpResource build/Debug-iphonesimulator/ImgReadr.app/PhoneGapBuildSettings.xcconfig PhoneGapBuildSettings.xcconfig
+cProcessPCH /var/folders/FB/FBoXVgh3H+q6RKPb2ja8xk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImgReadr_Prefix-gtgqxewryfwvjbaxeefxvrgmdsgx/ImgReadr_Prefix.pch.gch ImgReadr_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects-normal/i386/main.o /Users/emily/Development/phonegap/ImgReadr/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects-normal/i386/ImgReadrAppDelegate.o /Users/emily/Development/phonegap/ImgReadr/Classes/ImgReadrAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/ImgReadr normal i386
+cGenerateDSYMFile /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app.dSYM /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/ImgReadr
+cTouch /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C5A5EAD00000000000D2090
+t1280990893
+s860304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C5A5EA10000000000000703
+t1280990881
+s1795
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004C5A50360000000000075DC0
+t1280987190
+s482752
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABAddressBook.h
+c000000004C5A50320000000000000A8C
+t1280987186
+s2700
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004C5E1EA5000000000014B400
+t1281236645
+s1356800
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/AddressBookUI.h
+c000000004C5E1E8A0000000000000202
+t1281236618
+s514
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004C5A4D1600000000001E06E0
+t1280986390
+s1967840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004C5A4D020000000000010AAD
+t1280986370
+s68269
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004C5A4D8A00000000001C17C0
+t1280986506
+s1841088
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004C6C2FF1000000000006B7E0
+t1282158577
+s440288
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004C6C2FEA00000000000001D0
+t1282158570
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004C68BA00000000000015B0F0
+t1281931776
+s1421552
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004C5A5030000000000005AA60
+t1280987184
+s371296
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C5A50EF0000000000154E50
+t1280987375
+s1396304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004C5A4CD400000000000678D0
+t1280986324
+s424144
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINavigationController.h
+c000000004C6241EF0000000000001971
+t1281507823
+s6513
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITabBar.h
+c000000004C6241F00000000000000C05
+t1281507824
+s3077
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIToolbar.h
+c000000004C6241EE000000000000072C
+t1281507822
+s1836
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Users/emily/Development/phonegap/ImgReadr/Classes/ImgReadrAppDelegate.h
+c000000004CCF0C170000000000000104
+t1288637463
+s260
+i<UIKit/UIKit.h>
+i"PhoneGapDelegate.h"
+
+N/Users/emily/Development/phonegap/ImgReadr/Classes/ImgReadrAppDelegate.m
+c000000004CCF0C1700000000000007F3
+t1288637463
+s2035
+i"ImgReadrAppDelegate.h"
+i"PhoneGapViewController.h"
+
+N/Users/emily/Development/phonegap/ImgReadr/Default.png
+c000000004CCF0C170000000000000BAE
+t1288637463
+s2990
+
+N/Users/emily/Development/phonegap/ImgReadr/ImgReadr_Prefix.pch
+c000000004CCF0C1700000000000000B9
+t1288637463
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/emily/Development/phonegap/ImgReadr/PhoneGap.plist
+c000000004CCF0C17000000000000027E
+t1288637463
+s638
+
+N/Users/emily/Development/phonegap/ImgReadr/PhoneGapBuildSettings.xcconfig
+c000000004CCF0C170000000000000080
+t1288637463
+s128
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app
+t1288637500
+s374
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app.dSYM
+t1288637500
+s102
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/Default.png
+t1288637497
+s2990
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/ImgReadr
+t1288637500
+s304760
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/Info.plist
+t1288637497
+s929
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/PhoneGap.plist
+t1288637497
+s255
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/PhoneGapBuildSettings.xcconfig
+t1288637497
+s128
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/PkgInfo
+t1288637497
+s8
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/VERSION
+t1288637497
+s5
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/icon.png
+t1288637497
+s3126
+
+N/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/www
+t1288637497
+s136
+
+N/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects-normal/i386/ImgReadr.LinkFileList
+c000000004CCF0C39000000000000010F
+t1288637497
+s271
+
+N/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects-normal/i386/ImgReadrAppDelegate.o
+t1288637499
+s46224
+
+N/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects-normal/i386/main.o
+t1288637499
+s6496
+
+N/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Script-304B58A110DAC018002A0835.sh
+c000000004CCF0C390000000000000027
+t1288637497
+s39
+
+N/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Script-30E9A9A110B758320022D3BA.sh
+c000000004CCF0C3900000000000000BE
+t1288637497
+s190
+
+N/Users/emily/Development/phonegap/ImgReadr/icon.png
+c000000004CCF0C170000000000000C36
+t1288637463
+s3126
+
+N/Users/emily/Development/phonegap/ImgReadr/main.m
+c000000004CCF0C17000000000000017A
+t1288637463
+s378
+i<UIKit/UIKit.h>
+
+N/Users/emily/Development/phonegap/ImgReadr/www
+c000000004CCF0C390000000000000088
+t1288637497
+s136
+
+N/Users/emily/Documents/PhoneGapLib/Classes/Contacts.h
+c000000004CB572AB0000000000000A53
+t1286959787
+s2643
+i<Foundation/Foundation.h>
+i<AddressBook/ABAddressBook.h>
+i<AddressBookUI/AddressBookUI.h>
+i"PhoneGapCommand.h"
+
+N/Users/emily/Documents/PhoneGapLib/Classes/DebugConsole.h
+c000000004CB572AB0000000000000170
+t1286959787
+s368
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"PhoneGapCommand.h"
+
+N/Users/emily/Documents/PhoneGapLib/Classes/JSON/JSON.h
+c000000004CB572AB00000000000008F9
+t1286959787
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/emily/Documents/PhoneGapLib/Classes/JSON/NSObject+SBJSON.h
+c000000004CB572AB0000000000000A01
+t1286959787
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/emily/Documents/PhoneGapLib/Classes/JSON/NSString+SBJSON.h
+c000000004CB572AB0000000000000916
+t1286959787
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/emily/Documents/PhoneGapLib/Classes/JSON/SBJSON.h
+c000000004CB572AB0000000000000AED
+t1286959787
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/emily/Documents/PhoneGapLib/Classes/JSON/SBJsonBase.h
+c000000004CB572AB0000000000000B82
+t1286959787
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/emily/Documents/PhoneGapLib/Classes/JSON/SBJsonParser.h
+c000000004CB572AB0000000000000C0B
+t1286959787
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/emily/Documents/PhoneGapLib/Classes/JSON/SBJsonWriter.h
+c000000004CB572AB0000000000001140
+t1286959787
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/emily/Documents/PhoneGapLib/Classes/Location.h
+c000000004CB572AB0000000000000530
+t1286959787
+s1328
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"PhoneGapCommand.h"
+
+N/Users/emily/Documents/PhoneGapLib/Classes/PhoneGapCommand.h
+c000000004CB572AB00000000000002ED
+t1286959787
+s749
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/emily/Documents/PhoneGapLib/Classes/PhoneGapDelegate.h
+c000000004CB572AB00000000000006D8
+t1286959787
+s1752
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i<UIKit/UINavigationController.h>
+i"JSON/JSON.h"
+i"Location.h"
+i"Sound.h"
+i"Contacts.h"
+i"DebugConsole.h"
+i"UIControls.h"
+
+N/Users/emily/Documents/PhoneGapLib/Classes/PhoneGapViewController.h
+c000000004CB572AB0000000000000293
+t1286959787
+s659
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/emily/Documents/PhoneGapLib/Classes/Sound.h
+c000000004CB572AB0000000000000686
+t1286959787
+s1670
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioServices.h>
+i<AVFoundation/AVFoundation.h>
+i"PhoneGapCommand.h"
+
+N/Users/emily/Documents/PhoneGapLib/Classes/UIControls.h
+c000000004CB572AB000000000000066A
+t1286959787
+s1642
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<UIKit/UITabBar.h>
+i<UIKit/UIToolbar.h>
+i"PhoneGapCommand.h"
+
+N/Users/emily/Documents/PhoneGapLib/VERSION
+c000000004CB572AB0000000000000005
+t1286959787
+s5
+
+N/Users/emily/Documents/PhoneGapLib/build/Debug-iphonesimulator/libPhoneGapLib.a
+c000000004CBB360000000000001348C0
+t1287337472
+s1263808
+
+N/var/folders/FB/FBoXVgh3H+q6RKPb2ja8xk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImgReadr_Prefix-gtgqxewryfwvjbaxeefxvrgmdsgx/ImgReadr_Prefix.pch.gch
+t1288637498
+s15240208
+
+NImgReadr-Info.plist
+c000000004CCF0C1700000000000005C2
+t1288637463
+s1474
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies310330297#310330297#0(0"0(0#1#0"8605496352#0"0#
+
+CCompileC build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects-normal/i386/ImgReadrAppDelegate.o /Users/emily/Development/phonegap/ImgReadr/Classes/ImgReadrAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310330299.026360
+e310330299.830181
+r1
+xCompileC
+xbuild/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects-normal/i386/ImgReadrAppDelegate.o
+x/Users/emily/Development/phonegap/ImgReadr/Classes/ImgReadrAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/emily/Development/phonegap/ImgReadr/Classes/ImgReadrAppDelegate.m310330299#310330299#0(0"0(0#0#72"/Users/emily/Development/phonegap/ImgReadr/Classes/ImgReadrAppDelegate.m8605461792#2121"    cd /Users/emily/Development/phonegap/ImgReadr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/ImgReadr-generated-files.hmap -I/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/ImgReadr-own-target-headers.hmap -I/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/ImgReadr-all-target-headers.hmap -iquote /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/ImgReadr-project-headers.hmap -F/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator -iquote/Users/emily/Documents/PhoneGapLib/Classes/JSON -iquote/Users/emily/Documents/PhoneGapLib/Classes -I/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/include -I/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/DerivedSources/i386 -I/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/DerivedSources -include /var/folders/FB/FBoXVgh3H+q6RKPb2ja8xk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImgReadr_Prefix-gtgqxewryfwvjbaxeefxvrgmdsgx/ImgReadr_Prefix.pch -c /Users/emily/Development/phonegap/ImgReadr/Classes/ImgReadrAppDelegate.m -o /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects-normal/i386/ImgReadrAppDelegate.o0#
+
+CCompileC build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects-normal/i386/main.o /Users/emily/Development/phonegap/ImgReadr/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310330299.025063
+e310330299.238504
+r1
+xCompileC
+xbuild/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects-normal/i386/main.o
+x/Users/emily/Development/phonegap/ImgReadr/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/emily/Development/phonegap/ImgReadr/main.m310330299#310330299#0(0"0(0#0#49"/Users/emily/Development/phonegap/ImgReadr/main.m8605644672#2083"    cd /Users/emily/Development/phonegap/ImgReadr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/ImgReadr-generated-files.hmap -I/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/ImgReadr-own-target-headers.hmap -I/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/ImgReadr-all-target-headers.hmap -iquote /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/ImgReadr-project-headers.hmap -F/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator -iquote/Users/emily/Documents/PhoneGapLib/Classes/JSON -iquote/Users/emily/Documents/PhoneGapLib/Classes -I/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/include -I/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/DerivedSources/i386 -I/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/DerivedSources -include /var/folders/FB/FBoXVgh3H+q6RKPb2ja8xk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImgReadr_Prefix-gtgqxewryfwvjbaxeefxvrgmdsgx/ImgReadr_Prefix.pch -c /Users/emily/Development/phonegap/ImgReadr/main.m -o /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects-normal/i386/main.o0#
+
+CCopyPlistFile /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/PhoneGap.plist PhoneGap.plist
+s310330297.123706
+e310330297.330053
+r1
+xCopyPlistFile
+x/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/PhoneGap.plist
+xPhoneGap.plist
+lSLF07#2@19"Copy PhoneGap.plist310330297#310330297#0(0"0(0#0#57"/Users/emily/Development/phonegap/ImgReadr/PhoneGap.plist8605333024#398"    cd /Users/emily/Development/phonegap/ImgReadr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 PhoneGap.plist --outdir /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app0#
+
+CCpResource build/Debug-iphonesimulator/ImgReadr.app/Default.png Default.png
+s310330297.122364
+e310330297.134020
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ImgReadr.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png310330297#310330297#0(0"0(0#0#54"/Users/emily/Development/phonegap/ImgReadr/Default.png8605490688#468"    cd /Users/emily/Development/phonegap/ImgReadr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/emily/Development/phonegap/ImgReadr/Default.png /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app0#
+
+CCpResource build/Debug-iphonesimulator/ImgReadr.app/PhoneGapBuildSettings.xcconfig PhoneGapBuildSettings.xcconfig
+s310330297.134115
+e310330297.140805
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ImgReadr.app/PhoneGapBuildSettings.xcconfig
+xPhoneGapBuildSettings.xcconfig
+lSLF07#2@35"Copy PhoneGapBuildSettings.xcconfig310330297#310330297#0(0"0(0#0#73"/Users/emily/Development/phonegap/ImgReadr/PhoneGapBuildSettings.xcconfig8605261856#487"    cd /Users/emily/Development/phonegap/ImgReadr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/emily/Development/phonegap/ImgReadr/PhoneGapBuildSettings.xcconfig /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app0#
+
+CCpResource build/Debug-iphonesimulator/ImgReadr.app/VERSION /Users/emily/Documents/PhoneGapLib/VERSION
+s310330297.121709
+e310330297.156733
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ImgReadr.app/VERSION
+x/Users/emily/Documents/PhoneGapLib/VERSION
+lSLF07#2@47"Copy /Users/emily/Documents/PhoneGapLib/VERSION310330297#310330297#0(0"0(0#0#42"/Users/emily/Documents/PhoneGapLib/VERSION8605626304#456"    cd /Users/emily/Development/phonegap/ImgReadr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/emily/Documents/PhoneGapLib/VERSION /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app0#
+
+CCpResource build/Debug-iphonesimulator/ImgReadr.app/icon.png icon.png
+s310330297.122965
+e310330297.133836
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ImgReadr.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png310330297#310330297#0(0"0(0#0#51"/Users/emily/Development/phonegap/ImgReadr/icon.png8605421856#465"    cd /Users/emily/Development/phonegap/ImgReadr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/emily/Development/phonegap/ImgReadr/icon.png /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app0#
+
+CCpResource build/Debug-iphonesimulator/ImgReadr.app/www www
+s310330297.120943
+e310330297.159778
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ImgReadr.app/www
+xwww
+lSLF07#2@8"Copy www310330297#310330297#0(0"0(0#0#46"/Users/emily/Development/phonegap/ImgReadr/www8606815200#460"    cd /Users/emily/Development/phonegap/ImgReadr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/emily/Development/phonegap/ImgReadr/www /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app0#
+
+CGenerateDSYMFile /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app.dSYM /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/ImgReadr
+s310330300.684572
+e310330300.923226
+r1
+xGenerateDSYMFile
+x/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app.dSYM
+x/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/ImgReadr
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/ImgReadr.app.dSYM build/Debug-iphonesimulator/ImgReadr.app/ImgReadr310330300#310330300#0(0"0(0#0#92"/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/ImgReadr8604662208#398"    cd /Users/emily/Development/phonegap/ImgReadr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/ImgReadr -o /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app.dSYM0#
+
+CLd /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/ImgReadr normal i386
+s310330299.830268
+e310330300.684368
+r1
+xLd
+x/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/ImgReadr
+xnormal
+xi386
+lSLF07#2@97"Link /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/ImgReadr310330299#310330300#0(0"0(0#0#0"8605491904#1269"    cd /Users/emily/Development/phonegap/ImgReadr    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator -F/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator -filelist /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects-normal/i386/ImgReadr.LinkFileList -mmacosx-version-min=10.6 -all_load -Obj-C -Xlinker -objc_abi_version -Xlinker 2 /Users/emily/Documents/PhoneGapLib/build/Debug-iphonesimulator/libPhoneGapLib.a -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -o /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/ImgReadr0#
+
+CPhaseScriptExecution "Copy PhoneGap Javascript" /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Script-30E9A9A110B758320022D3BA.sh
+s310330297.053093
+e310330297.100883
+r1
+xPhaseScriptExecution
+xCopy PhoneGap Javascript
+x/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Script-30E9A9A110B758320022D3BA.sh
+omake: Nothing to be done for `all'.
+ocp /Users/emily/Documents/PhoneGapLib/javascripts/phonegap.js /Users/emily/Development/phonegap/ImgReadr/www/phonegap.js
+lSLF07#2@50"Run custom shell script 'Copy PhoneGap Javascript'310330297#310330297#0(157"make: Nothing to be done for `all'.cp /Users/emily/Documents/PhoneGapLib/javascripts/phonegap.js /Users/emily/Development/phonegap/ImgReadr/www/phonegap.js2(13@36"make: Nothing to be done for `all'.310330297#0#36#0(1@0"0(13@121"cp /Users/emily/Documents/PhoneGapLib/javascripts/phonegap.js /Users/emily/Development/phonegap/ImgReadr/www/phonegap.js310330297#36#121#0(1@0"0(0#0#0"8604761088#17383"    cd /Users/emily/Development/phonegap/ImgReadr    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER emily    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/emily/Development/phonegap/ImgReadr/build    setenv BUILD_ROOT /Users/emily/Development/phonegap/ImgReadr/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/FB/FBoXVgh3H+q6RKPb2ja8xk+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/FB/FBoXVgh3H+q6RKPb2ja8xk+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/FB/FBoXVgh3H+q6RKPb2ja8xk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH ImgReadr.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH ImgReadr.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/ImgReadr.dst    setenv DWARF_DSYM_FILE_NAME ImgReadr.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH ImgReadr.app/Executables    setenv EXECUTABLE_FOLDER_PATH ImgReadr.app    setenv EXECUTABLE_NAME ImgReadr    setenv EXECUTABLE_PATH ImgReadr.app/ImgReadr    setenv FILE_LIST /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH ImgReadr.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME ImgReadr.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER ImgReadr_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE ImgReadr-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH ImgReadr.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH ImgReadr.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/ImgReadr.dst/Users/emily/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER emily    setenv INSTALL_PATH /Users/emily/Applications    setenv INSTALL_ROOT /tmp/ImgReadr.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH ImgReadr.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/ImgReadr-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects-normal/i386/ImgReadr.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH ImgReadr.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1064    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0604    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects-normal    setenv OBJROOT /Users/emily/Development/phonegap/ImgReadr/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH ImgReadr.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/emily/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/PkgInfo    setenv PKGINFO_PATH ImgReadr.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH ImgReadr.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH ImgReadr.app/PrivateHeaders    setenv PRODUCT_NAME ImgReadr    setenv PRODUCT_SETTINGS_PATH /Users/emily/Development/phonegap/ImgReadr/ImgReadr-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT ImgReadr    setenv PROJECT_DERIVED_FILE_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/DerivedSources    setenv PROJECT_DIR /Users/emily/Development/phonegap/ImgReadr    setenv PROJECT_FILE_PATH /Users/emily/Development/phonegap/ImgReadr/ImgReadr.xcodeproj    setenv PROJECT_NAME ImgReadr    setenv PROJECT_TEMP_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build    setenv PUBLIC_HEADERS_FOLDER_PATH ImgReadr.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH ImgReadr.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk    setenv SDK_NAME iphonesimulator4.1    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH ImgReadr.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/FB/FBoXVgh3H+q6RKPb2ja8xk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH ImgReadr.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/emily/Development/phonegap/ImgReadr    setenv SRCROOT /Users/emily/Development/phonegap/ImgReadr    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1    setenv SYMBOL_REPOSITORY_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/SymbolRepositories    setenv SYMROOT /Users/emily/Development/phonegap/ImgReadr/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME ImgReadr    setenv TARGET_BUILD_DIR /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator    setenv TARGET_NAME ImgReadr    setenv TARGET_TEMP_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build    setenv TEMP_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build    setenv TEMP_FILES_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build    setenv TEMP_FILE_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build    setenv TEMP_ROOT /Users/emily/Development/phonegap/ImgReadr/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH ImgReadr.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER emily    setenv USER_APPS_DIR /Users/emily/Applications    setenv USER_HEADER_SEARCH_PATHS "/Users/emily/Documents/PhoneGapLib/Classes/JSON /Users/emily/Documents/PhoneGapLib/Classes"    setenv USER_LIBRARY_DIR /Users/emily/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH ImgReadr.app/version.plist    setenv VERSION_INFO_BUILDER emily    setenv VERSION_INFO_FILE ImgReadr_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:ImgReadr  PROJECT:ImgReadr-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME ImgReadr.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0324    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Script-30E9A9A110B758320022D3BA.sh0#
+
+CPhaseScriptExecution "Touch www folder" /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Script-304B58A110DAC018002A0835.sh
+s310330297.100971
+e310330297.120846
+r1
+xPhaseScriptExecution
+xTouch www folder
+x/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Script-304B58A110DAC018002A0835.sh
+lSLF07#2@42"Run custom shell script 'Touch www folder'310330297#310330297#0(0"0(0#0#0"8607136256#17383"    cd /Users/emily/Development/phonegap/ImgReadr    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER emily    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/emily/Development/phonegap/ImgReadr/build    setenv BUILD_ROOT /Users/emily/Development/phonegap/ImgReadr/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/FB/FBoXVgh3H+q6RKPb2ja8xk+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/FB/FBoXVgh3H+q6RKPb2ja8xk+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/FB/FBoXVgh3H+q6RKPb2ja8xk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH ImgReadr.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH ImgReadr.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/ImgReadr.dst    setenv DWARF_DSYM_FILE_NAME ImgReadr.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH ImgReadr.app/Executables    setenv EXECUTABLE_FOLDER_PATH ImgReadr.app    setenv EXECUTABLE_NAME ImgReadr    setenv EXECUTABLE_PATH ImgReadr.app/ImgReadr    setenv FILE_LIST /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH ImgReadr.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME ImgReadr.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER ImgReadr_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE ImgReadr-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH ImgReadr.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH ImgReadr.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/ImgReadr.dst/Users/emily/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER emily    setenv INSTALL_PATH /Users/emily/Applications    setenv INSTALL_ROOT /tmp/ImgReadr.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH ImgReadr.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/ImgReadr-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects-normal/i386/ImgReadr.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH ImgReadr.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1064    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0604    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Objects-normal    setenv OBJROOT /Users/emily/Development/phonegap/ImgReadr/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH ImgReadr.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/emily/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/PkgInfo    setenv PKGINFO_PATH ImgReadr.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH ImgReadr.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH ImgReadr.app/PrivateHeaders    setenv PRODUCT_NAME ImgReadr    setenv PRODUCT_SETTINGS_PATH /Users/emily/Development/phonegap/ImgReadr/ImgReadr-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT ImgReadr    setenv PROJECT_DERIVED_FILE_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/DerivedSources    setenv PROJECT_DIR /Users/emily/Development/phonegap/ImgReadr    setenv PROJECT_FILE_PATH /Users/emily/Development/phonegap/ImgReadr/ImgReadr.xcodeproj    setenv PROJECT_NAME ImgReadr    setenv PROJECT_TEMP_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build    setenv PUBLIC_HEADERS_FOLDER_PATH ImgReadr.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH ImgReadr.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk    setenv SDK_NAME iphonesimulator4.1    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH ImgReadr.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/FB/FBoXVgh3H+q6RKPb2ja8xk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH ImgReadr.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/emily/Development/phonegap/ImgReadr    setenv SRCROOT /Users/emily/Development/phonegap/ImgReadr    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1    setenv SYMBOL_REPOSITORY_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/SymbolRepositories    setenv SYMROOT /Users/emily/Development/phonegap/ImgReadr/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME ImgReadr    setenv TARGET_BUILD_DIR /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator    setenv TARGET_NAME ImgReadr    setenv TARGET_TEMP_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build    setenv TEMP_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build    setenv TEMP_FILES_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build    setenv TEMP_FILE_DIR /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build    setenv TEMP_ROOT /Users/emily/Development/phonegap/ImgReadr/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH ImgReadr.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER emily    setenv USER_APPS_DIR /Users/emily/Applications    setenv USER_HEADER_SEARCH_PATHS "/Users/emily/Documents/PhoneGapLib/Classes/JSON /Users/emily/Documents/PhoneGapLib/Classes"    setenv USER_LIBRARY_DIR /Users/emily/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH ImgReadr.app/version.plist    setenv VERSION_INFO_BUILDER emily    setenv VERSION_INFO_FILE ImgReadr_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:ImgReadr  PROJECT:ImgReadr-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME ImgReadr.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0324    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/Script-304B58A110DAC018002A0835.sh0#
+
+CProcessInfoPlistFile /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/Info.plist ImgReadr-Info.plist
+s310330297.046833
+e310330297.053003
+r1
+xProcessInfoPlistFile
+x/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/Info.plist
+xImgReadr-Info.plist
+lSLF07#2@27"Process ImgReadr-Info.plist310330297#310330297#0(0"0(0#0#62"/Users/emily/Development/phonegap/ImgReadr/ImgReadr-Info.plist8604966400#494"    cd /Users/emily/Development/phonegap/ImgReadr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ImgReadr-Info.plist -genpkginfo /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app/Info.plist0#
+
+CProcessPCH /var/folders/FB/FBoXVgh3H+q6RKPb2ja8xk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImgReadr_Prefix-gtgqxewryfwvjbaxeefxvrgmdsgx/ImgReadr_Prefix.pch.gch ImgReadr_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s310330297.330181
+e310330299.023332
+r1
+xProcessPCH
+x/var/folders/FB/FBoXVgh3H+q6RKPb2ja8xk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImgReadr_Prefix-gtgqxewryfwvjbaxeefxvrgmdsgx/ImgReadr_Prefix.pch.gch
+xImgReadr_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile ImgReadr_Prefix.pch310330297#310330299#0(0"0(0#0#62"/Users/emily/Development/phonegap/ImgReadr/ImgReadr_Prefix.pch8605075776#1970"    cd /Users/emily/Development/phonegap/ImgReadr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/ImgReadr-generated-files.hmap -I/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/ImgReadr-own-target-headers.hmap -I/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/ImgReadr-all-target-headers.hmap -iquote /Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/ImgReadr-project-headers.hmap -F/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator -iquote/Users/emily/Documents/PhoneGapLib/Classes/JSON -iquote/Users/emily/Documents/PhoneGapLib/Classes -I/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/include -I/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/DerivedSources/i386 -I/Users/emily/Development/phonegap/ImgReadr/build/ImgReadr.build/Debug-iphonesimulator/ImgReadr.build/DerivedSources -c /Users/emily/Development/phonegap/ImgReadr/ImgReadr_Prefix.pch -o /var/folders/FB/FBoXVgh3H+q6RKPb2ja8xk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImgReadr_Prefix-gtgqxewryfwvjbaxeefxvrgmdsgx/ImgReadr_Prefix.pch.gch0#
+
+CTouch /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app
+s310330300.923333
+e310330300.925831
+r1
+xTouch
+x/Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app
+lSLF07#2@89"Touch /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app310330300#310330300#0(0"0(0#0#0"8604410240#287"    cd /Users/emily/Development/phonegap/ImgReadr    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/emily/Development/phonegap/ImgReadr/build/Debug-iphonesimulator/ImgReadr.app0#
+

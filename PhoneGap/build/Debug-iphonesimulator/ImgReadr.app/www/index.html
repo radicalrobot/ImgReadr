@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+	<!-- Change this if you want to allow scaling -->
+    <meta name="viewport" content="width=default-width; user-scalable=no" />
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <title>ImgReadr</title>
+	
+	<link rel="stylesheet"  href="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css" />
+	
+	<style type="text/css">
+		#icon-container{
+			margin-top: 4em;
+			text-align:center;
+		}
+		#buttons{
+			margin-top: 1em;
+		}
+		#buttons a{
+			margin: 3em 0;
+		}
+		.centered{
+			text-align: center;
+		}
+		.centeredAudio{
+			margin-top: 4em;
+			text-align: center;
+		}
+	</style>
+	
+	
+	<!-- jquery mobile scripts -->
+	<script src="js/jquery-1.4.3.min.js"></script>
+	<script src="js/jquery.mobile-1.0a1.min.js"></script>    
+
+	<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="iphone.css" type="text/css" />		
+	
+	<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+    <script type="text/javascript" charset="utf-8">
+	
+	
+    var pictureSource;   // picture source for iPhone
+	var useragent; // string determining what our user agent is
+	var media;
+
+	// If you want to prevent dragging, uncomment this section
+	
+	function preventBehavior(e) 
+	{ 
+      e.preventDefault(); 
+    }
+	document.addEventListener("touchmove", preventBehavior, false);
+	
+	
+	function onBodyLoad()
+	{
+		document.addEventListener("deviceready",onDeviceReady,false);
+	}
+	
+	/* When this function is called, PhoneGap has been initialized and is ready to roll */
+	function onDeviceReady()
+	{
+		useragent = navigator.userAgent;
+		if (useragent.indexOf('iPhone') != -1 || useragent.indexOf('Android') != -1 ) 
+		{
+			pictureSource=navigator.camera.PictureSourceType;
+		}
+	}
+	
+    // Called when a photo is successfully taken
+    //
+    function onSuccess(imageData) {
+      // Get image handles
+      //
+      var smallImage = document.getElementById('smallImage');
+
+      // Unhide image elements
+      //
+      smallImage.style.display = 'inline';
+
+      // Show the captured photo
+      // The inline CSS rules are used to resize the image
+      //
+      smallImage.src = "data:image/jpeg;base64," + imageData;
+	  
+	  var feedURL = "http://ocr.aicookbook.com/upload_pg_nourlencode";
+	  
+		var request = new XMLHttpRequest();
+		//request.setTimeout(20000);
+		request.onreadystatechange = function(e)
+		{
+			if(this.readyState == 4 && this.status == 200)
+			{
+				var response = eval('('+this.responseText+')');
+				
+				audio.src = response.tts_english;
+				
+				console.log(postContent);
+				
+				var innerHtml = '<p>'+ response.text_english +'</p>';
+				  
+				  
+				  $('div.output').html(innerHtml);
+			}
+		};
+		
+		var boundaryString = "AaBbCcX30";
+		var boundary = "--"+boundaryString;
+		
+		var encodedImageData = imageData;
+		
+		var postContent = "\r\n"+boundary+"\r\n"+
+		  "Content-Disposition: form-data; name=\"data\"; filename=\"test.jpg\"\r\n"+
+		  "Content-Type: image/jpeg\r\n"+
+          "\r\n"+
+          "%FILECONTENT%\r\n\r\n"+
+          boundary+"\r\n";
+		postContent = postContent.replace("%FILECONTENT%", encodedImageData);
+				
+
+		request.open("POST",feedURL, true);
+		
+		
+		request.setRequestHeader("Content-type", "multipart/form-data; boundary=" + boundaryString);
+		request.setRequestHeader("content-length", postContent.length);
+		request.setRequestHeader("X_REQUESTED_WITH", "XMLHttpRequest");
+		request.send(postContent);
+	}
+
+    // Called if something bad happens.
+    // 
+    function onFail(mesage) {
+        alert('Failed because: ' + message);
+    }
+	
+	
+    function capturePhoto() {
+		navigator.camera.getPicture(onSuccess, onFail, { quality: 50 }); 
+    }
+	
+    // iPhone ONLY
+    function getPicture(source){
+		navigator.camera.getPicture(onSuccess, onFail, {quality: 100, sourceType: source, allowEdit: false});
+    }
+    function getPictureEdit(source){
+		navigator.camera.getPicture(onSuccess, onFail, {quality: 100, sourceType: source, allowEdit: true});
+    }
+    function capturePhotoEdit() {
+		navigator.camera.getPicture(onSuccess, onFail, {quality: 100, allowEdit: true }); 
+    }
+	
+	function playAudio(){
+		alert('Playing Audio');
+		if (audio.paused) {
+			audio.play();
+		} else {
+			audio.pause();
+		} 
+	}
+  </script>
+  </head>
+  <body onload="onBodyLoad()">
+  	<div data-role="page" data-theme="c" id="photo">		
+		<div data-role="header">
+			<h1>Upload a Photo</h1>
+		</div>
+		<div id="icon-container">  
+			<img id="iconImg" src="images/imgreadricon.jpg" />
+		</div>
+		<div data-role="content" id="buttons">		
+			<a href="#translation" data-role="button" onclick="getPictureEdit(pictureSource.SAVEDPHOTOALBUM);">Choose From Library</a> 
+			<a href="#translation" data-role="button" onclick="capturePhotoEdit();">Take Photo</a> 
+		</div>
+	</div>
+
+  	<div data-role="page" data-theme="c" id="translation">		
+		<div data-role="header">
+			<h1>Chosen Photo</h1>
+		</div>
+		<div data-role="content">	
+			<div class="centered">
+				<img style="display:none;width:180px;height:180px;" id="smallImage" />			</div>
+			<div class="output">
+			</div>
+			<div class="centeredAudio">
+				<audio id="audio" controls="controls"></audio> 
+			</div>
+
+		</div>
+	</div>
+
+  </body>
+</html>
